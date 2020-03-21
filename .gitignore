@@ -1,0 +1,42 @@
+# ignore scrapper
+/scrapyrt-server/
+
+# ignore joblib file in ai folder
+backend/flaskserver/server/ai/*.joblib
+
+# ignore backup folder in backend
+backend/bkup
+
+# ignore uploads in static
+backend/flaskserver/static/uploads/*
+
+# exception
+!backend/flaskserver/static/uploads/.gitkeep
+
+# ignore test folder in frontend
+frontend/test
+
+# ignore environment variables
+**/.env
+
+# dependencies
+/frontend/peep/node_modules
+/frontend/peep/.pnp
+/frontend/peep.pnp.js
+
+# testing
+/frontend/peep/coverage
+
+# production
+/frontend/peep/build
+
+# misc
+/frontend/peep/.DS_Store
+/frontend/peep/.env.local
+/frontend/peep/.env.development.local
+/frontend/peep/.env.test.local
+/frontend/peep/.env.production.local
+/frontend/peep/npm-debug.log*
+/frontend/peep/yarn-debug.log*
+/frontend/peep/yarn-error.log*
+

@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+pymongo = "*"
+marshmallow = "*"
+pyjwt = "*"
+flask-cors = "*"
+redis = "==3.2"
+celery = "*"
+flask-pymongo = "*"
+argparse = "*"
+spacy = "==2.1.8"
+en-core-web-lg = {path = "/home/rain/Downloads/en_core_web_lg-2.1.0.tar.gz"}
+sklearn = "*"
+xgboost = "*"
+pandas = "*"
+spacy-doc-vectorizer = {editable = true,path = "/home/rain/Github/custom_transformer"}
+scikit-learn = "==0.21.3"
+
+[requires]
+python_version = "3.5"
