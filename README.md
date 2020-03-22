@@ -29,8 +29,11 @@ A web app was created as an interface and to visualize the prediction results.
 
 ## Train your model
 Prepare your dataset
+
 Get the vector of each post using SpaCy
+
 Train the xgboost model until it match the desired evaluation metric score 
+
 Pickle the model and put it inside **backend/flaskserver/server/ai** to serve incoming prediction requests
 
 ## Set the environment variables
