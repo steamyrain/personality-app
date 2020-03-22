@@ -33,6 +33,25 @@ Get the vector of each post using SpaCy
 Train the xgboost model until it match the desired evaluation metric score 
 Pickle the model and put it inside **backend/flaskserver/server/ai** to serve incoming prediction requests
 
+## Set the environment variables
+Backend environment variables in **backend/flaskserver**
+```
+UPLOAD_FOLDER=static/uploads
+CELERY_BROKER_URL=*your celery broker url (in this case redis uri)*
+CELERY_RESULT_BACKEND=*your celery result url (in this case redis uri)*
+MONGO_URI=*your mongo uri*
+MONGO_COL=*the name of your mongo collection*
+```
+
+Frontend environment variables in **frontend/peep**
+These environment variables was created for Okta Open ID
+```
+REACT_APP_CLIENT_ID=*your okta client id*
+REACT_APP_ISSUER=*your okta app issuer*
+REACT_APP_REDIRECT_URI=*your redirect uri after successful authentication*
+REACT_APP_TESTING_DISABLEHTTPSCHECK=false
+```
+
 ## Backend
 Install dependencies with pipenv:
 ```
