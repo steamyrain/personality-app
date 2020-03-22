@@ -3,7 +3,7 @@ This app predicts user's Big 5 personality based on user's facebook posts using 
 A web app was created as an interface and to visualize the prediction results.
 
 # Demo
-[<img src="https://gyazo.com/24c9b55197fb2a1404b4e3077a19d7fa" width="50%">](https://streamable.com/40nuy)
+[<img src="https://i.gyazo.com/24c9b55197fb2a1404b4e3077a19d7fa.png" width="50%">](https://streamable.com/40nuy)
 
 ---
 # Requirements
